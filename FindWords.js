@@ -21,13 +21,3 @@ for(let i =0; i < Array.length;i++){
 
 let dup = Array.length - Object.keys(obj).length;
 console.log(dup)
-
-for ( var i = 0; i <= arrayWord.length; i ++) {
- var matched = arrayWord[i];
-  if (arrayWord.hasOwnProperty(matched))
-    { similarObjects.push(matched)
-    }
-    else {
-      diffrentObjects.push(matched)
-    }
-  }
